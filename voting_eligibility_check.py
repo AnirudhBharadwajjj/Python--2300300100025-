@@ -1,4 +1,4 @@
-#'''----------  Boating Eligibility check ------------------
+#'''----------  Voating Eligibility check ------------------
 #input of age from user
 age = int(input("Enter age(in year) : "))
 #to validate age of the customer
@@ -7,6 +7,6 @@ if(age <= 0):
 #---------------------------------------------------
 #verifying eligibility of the customer
 if(age >= 18 ):
-    print("You are eligible for boating")
+    print("You are eligible for voting")
 else:
-    print("You are not eligible for boating")
+    print("You are not eligible for voting")
